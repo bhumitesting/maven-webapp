@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>in.ashokit</groupId>
+  <artifactId>maven-archetype-webapp</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-RELESE</version>
+  <name>maven-archetype-webapp Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+   <properties>
+    <sonar.host.url>http://43.204.228.190:9000/</sonar.host.url>
+	<sonar.login>caea53475bf2570788fb519a7a76485ff7212ec4</sonar.login>
+    </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>maven-archetype-webapp</finalName>
+  </build>
+</project>
